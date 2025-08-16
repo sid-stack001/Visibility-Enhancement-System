@@ -3,7 +3,7 @@ import datetime
 import os
 
 # Load image
-image = cv2.imread(r'F:\Modelss\CycleGan\pytorch-CycleGAN-and-pix2pix\results\input_output_fused_20250326_100520.png')  # Replace with your image path
+image = cv2.imread(r'path/image')  # Replace with your image path
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Apply Canny Edge Detection

@@ -14,7 +14,7 @@ model = ResnetGenerator(
 )
 
 # 2. Load weights
-checkpoint = torch.load("F:\Modelss\CycleGan\pytorch-CycleGAN-and-pix2pix\latest_net_G_A.pth", map_location="cpu")  # change path & filename
+checkpoint = torch.load("path\model.pth", map_location="cpu")  # change path & filename
 model.load_state_dict(checkpoint)
 model.eval()
 
