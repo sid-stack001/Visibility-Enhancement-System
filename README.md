@@ -52,7 +52,7 @@ Cycle Consistency Loss: Maintains structural fidelity between degraded and resto
 
 ---
 
-📊 Results
+## 📊 Results
 <img width="975" height="348" alt="image" src="https://github.com/user-attachments/assets/c0864a59-5498-410d-9b49-98455d7d2b66" />
 <img width="975" height="296" alt="image" src="https://github.com/user-attachments/assets/7055dfe5-16ae-428e-a5dc-20b0d8089890" />
 <img width="975" height="313" alt="image" src="https://github.com/user-attachments/assets/d87771c2-973d-4079-8370-612d4f8eff86" />
@@ -60,12 +60,12 @@ Cycle Consistency Loss: Maintains structural fidelity between degraded and resto
 
 ## 📈 Evaluation Metrics
 
-PSNR (Peak Signal-to-Noise Ratio) - 28.09
-SSIM (Structural Similarity Index) - 0.78
+ - PSNR (Peak Signal-to-Noise Ratio) - 28.09
+ - SSIM (Structural Similarity Index) - 0.78
 
-tested on SOTS indoor dataset
+tested on the SOTS indoor dataset.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 🐍 Python 3.9+
 
