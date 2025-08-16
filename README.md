@@ -1,4 +1,4 @@
-### 🌫️ Visibility Enhancement System
+# Visibility Enhancement System
 
 Real-Time Dehazing & Deraining using CycleGAN
 
@@ -53,7 +53,10 @@ Cycle Consistency Loss: Maintains structural fidelity between degraded and resto
 ---
 
 📊 Results
-<img width="790" height="356" alt="image" src="https://github.com/user-attachments/assets/b12abb72-9834-4ea8-9402-be6797df3059" />
+<img width="975" height="348" alt="image" src="https://github.com/user-attachments/assets/c0864a59-5498-410d-9b49-98455d7d2b66" />
+<img width="975" height="296" alt="image" src="https://github.com/user-attachments/assets/7055dfe5-16ae-428e-a5dc-20b0d8089890" />
+<img width="975" height="313" alt="image" src="https://github.com/user-attachments/assets/d87771c2-973d-4079-8370-612d4f8eff86" />
+
 
 ## 📈 Evaluation Metrics
 
