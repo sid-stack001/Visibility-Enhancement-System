@@ -68,7 +68,7 @@ Cycle Consistency Loss: Maintains structural fidelity between degraded and resto
 - PSNR (Peak Signal-to-Noise Ratio) - 28.09
 - SSIM (Structural Similarity Index) - 0.78
 
-tested on the SOTS indoor dataset.
+Tested on the SOTS indoor dataset.
 
 ## 🛠️ Tech Stack
 
@@ -89,5 +89,3 @@ tested on the SOTS indoor dataset.
 🤖 ROS integration for autonomous systems
 
 🧩 Exploring transformers and diffusion-based approaches
-
-Codebase to be uploaded soon
