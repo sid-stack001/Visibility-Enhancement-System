@@ -46,6 +46,8 @@ Discriminator: Ensures generated outputs are visually realistic
 Cycle Consistency Loss: Maintains structural fidelity between degraded and restored images.
 <img width="692" height="531" alt="image" src="https://github.com/user-attachments/assets/460a0ba3-60d6-4e07-a263-08a106a9c352" />
 
+---
+
 ## 📂 Project Structure  
 
 ```bash
@@ -134,12 +136,17 @@ python test_native_live.py
 <img width="975" height="296" alt="image" src="https://github.com/user-attachments/assets/7055dfe5-16ae-428e-a5dc-20b0d8089890" />
 <img width="975" height="313" alt="image" src="https://github.com/user-attachments/assets/d87771c2-973d-4079-8370-612d4f8eff86" />
 
+---
+
 ## 📈 Evaluation Metrics
 
 - PSNR (Peak Signal-to-Noise Ratio) - 28.09
 - SSIM (Structural Similarity Index) - 0.78
 
 Tested on the SOTS indoor dataset.
+
+---
+
 
 ## 🛠️ Tech Stack
 
@@ -151,6 +158,8 @@ Tested on the SOTS indoor dataset.
 
 ⚡ CUDA/cuDNN
 
+---
+
 ## 📢 Future Work
 
 🌌 Extending to fog, snow, and low-light scenarios
@@ -161,7 +170,13 @@ Tested on the SOTS indoor dataset.
 
 🧩 Exploring transformers and diffusion-based approaches
 
+---
+
+
 ## 🙏 Acknowledgements  
 
 This work is built upon the excellent open-source implementation of CycleGAN and Pix2Pix provided by [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).  
 We sincerely thank the authors for their contributions to the research community. 
+
+---
+
