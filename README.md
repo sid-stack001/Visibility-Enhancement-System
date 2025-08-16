@@ -46,6 +46,40 @@ Discriminator: Ensures generated outputs are visually realistic
 Cycle Consistency Loss: Maintains structural fidelity between degraded and restored images.
 <img width="692" height="531" alt="image" src="https://github.com/user-attachments/assets/460a0ba3-60d6-4e07-a263-08a106a9c352" />
 
+## 📂 Project Structure  
+
+```bash
+├── canny_edge_det/      # Checks image features through canny edges
+├── checkpoints/         # Saved model checkpoints  
+├── data/                # Datasets (train/test splits)  
+├── datasets/            # Dataset processing scripts  
+├── docs/                # Documentation and related resources  
+├── imgs/                # Images for README/demo  
+├── input_images/        # Input images for testing  
+├── input_videos/        # Input videos for testing
+├── models/              # Stores models
+├── onnx/                # Converts model to .onnx format
+├── options/             # Configuration files and options  
+├── results/             # Generated results (images/videos)  
+├── results_past/        # Previous experiment results  
+├── scripts/             # Utility scripts for training/inference  
+├── util/                # Helper functions and utilities  
+│
+├── LICENSE              # License file (MIT)  
+├── README.md            # Project documentation  
+├── desktop.ini          # Windows system file (can be ignored)  
+├── server.py            # API/Server script  
+├── test.py              # Testing script  
+├── test_native_live.py  # Live webcam inference (native resolution)  
+├── test_pic.py          # Single image test script  
+├── test_resize.py       # Test with resized inputs  
+├── test_server.py       # Server-based test script  
+├── test_video.py        # Video file inference  
+├── test_video_live.py   # Live video stream inference  
+├── train.py             # Training entry point  
+├── yolov8.pt            # YOLOv8 weights (for auxiliary tasks if used)  
+
+```
 ## 📂 Dataset
 
 | Dataset    | Train Images | Test Images | Total    |
