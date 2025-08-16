@@ -91,6 +91,43 @@ Cycle Consistency Loss: Maintains structural fidelity between degraded and resto
 
 ---
 
+
+## 🏁 Getting Started  
+
+Follow these steps to quickly run the Visibility Enhancement System on your machine.  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/visibility-enhancement.git
+cd visibility-enhancement
+```
+
+### 2️⃣ Setup Environment
+
+It’s recommended to use Conda or virtualenv.
+```
+conda create -n vis-enhance python=3.9
+conda activate vis-enhance
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run Inference
+
+On a single image:
+```
+python test_pic.py --input input_images/sample.jpg --output results/output.jpg
+```
+On a video file:
+```
+python test_video.py --input input_videos/sample.mp4 --output results/output.mp4
+```
+Live webcam demo (native resolution):
+```
+python test_native_live.py
+
+```
+---
+
 ## 📊 Results
 
 <img width="975" height="348" alt="image" src="https://github.com/user-attachments/assets/c0864a59-5498-410d-9b49-98455d7d2b66" />
