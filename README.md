@@ -123,3 +123,8 @@ Tested on the SOTS indoor dataset.
 🤖 ROS integration for autonomous systems
 
 🧩 Exploring transformers and diffusion-based approaches
+
+## 🙏 Acknowledgements  
+
+This work is built upon the excellent open-source implementation of CycleGAN and Pix2Pix provided by [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).  
+We sincerely thank the authors for their contributions to the research community. 
